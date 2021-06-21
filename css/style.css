@@ -1,0 +1,87 @@
+:root {
+  --main-font: "Roboto", "Open Sans", sans-serif;
+  --secondary-font: Raleway, sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+}
+ul {
+  list-style: none;
+}
+
+/* Логотип */
+
+.logo-two {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+/*  Логотип */
+
+.logo-text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  /*  навигационные кнопки хедера */
+}
+.nav-menu .link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.link:hover,
+.link:focus {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
+.nav .link.current {
+  color: #2196f3;
+}
+
+.contacts-top .link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.contacts-top .link:hover,
+.contacts-top .link:focus {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
