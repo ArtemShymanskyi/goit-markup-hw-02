@@ -1,10 +1,38 @@
 :root {
-  --main-font: "Roboto", "Open Sans", sans-serif;
-  --secondary-font: Raleway, sans-serif;
+  /* Black */
+  --primary-text-color: #000000;
+  /* 2nd gray */
+  --secondary-text-color: #757575;
+  /* White */
+  --primary-white-color: #ffffff;
+  /* Title black */
+  --title-text-color: #212121;
+  /* Accent blue */
+  --accent-color: #2196f3;
+  /* Background Accent blue */
+  --accentbgr-color: #188ce8;
+  /* Hero, footer background color */
+  --darkbgr-color: #2f303a;
+  /* Main background color*/
+  --mainbgr-color: #e5e5e5;
+  /* 2nd Main background color */
+  --mainbgrtwo-color: #f5f4fa;
+  /* Logo Font */
+  --logo-font: Raleway;
+  /* Main Font */
+  --main-font: Roboto;
 }
 
 body {
-  font-family: var(--main-font);
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: var(--main-font), sans-serif;
+}
+
+/* Link */
+.link {
+  text-decoration: none;
+  color: inherit;
 }
 ul {
   list-style: none;
@@ -13,28 +41,31 @@ ul {
 /* Логотип */
 
 .logo-two {
-  font-family: Raleway;
+  font-family: var(--logo-font);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.1;
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /*  Логотип */
 
 .logo-text {
-  font-family: Raleway;
+  font-family: var(--logo-font);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.1;
 
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--title-text-color);
+}
+
+
   /*  навигационные кнопки хедера */
 }
 .nav-menu .link {
@@ -42,7 +73,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1; 
   letter-spacing: 0.02em;
 
   color: #212121;
@@ -54,13 +85,13 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1 ;
   letter-spacing: 0.02em;
 
   color: #2196f3;
 }
 
-.nav .link.current {
+.link.current {
   color: #2196f3;
 }
 
@@ -69,7 +100,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 
   color: #757575;
@@ -80,8 +111,132 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 
   color: #2196f3;
+}
+
+/* Hero */
+.hero-title
+{
+
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--primary-white-color)
+
+}
+
+.hero {
+  background-color: var(--darkbgr-color);
+}
+
+.hero-btn
+ {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 187% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.hero-btn:hover,
+.hero-btn:focus
+{
+background-color: var(--accentbgr-color);
+}
+
+.advantages,
+.about
+{
+  background-color: var(--mainbgr-color);
+}
+.advantages-title
+{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color:var(--title-text-color);  
+}
+.advantages-item
+{
+  font-family: ;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.15;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--secondary-text-color);
+
+}
+.about-title
+{
+  font-family: font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--title-text-color)
+}
+
+.team-section {
+  background-color: var(--mainbgrtwo-color) ;
+}
+
+.team-title {
+  font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--title-text-color);
+
+}
+
+.name{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color:var(--title-text-color);
 }
