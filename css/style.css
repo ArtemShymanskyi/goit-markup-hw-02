@@ -51,7 +51,6 @@ ul {
 
   color: var(--accent-color);
 }
-/*  Логотип */
 
 .logo-text {
   font-family: var(--logo-font);
@@ -91,7 +90,7 @@ ul {
   color: #2196f3;
 }
 
-.link.current {
+.list .link.current {
   color: #2196f3;
 }
 
@@ -197,6 +196,7 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 
 }
+                     /* -- Чем мы занимаемся --> */
 .about-title
 {
   font-family: font-family: var(--main-font);
@@ -209,7 +209,7 @@ letter-spacing: 0.03em;
 
 color: var(--title-text-color)
 }
-
+             /* -- Список команды --> */
 .team-section {
   background-color: var(--mainbgrtwo-color) ;
 }
@@ -233,10 +233,150 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
-/* identical to box height */
 
-text-align: center;
 letter-spacing: 0.03em;
 
 color:var(--title-text-color);
 }
+.team-job{
+
+
+
+font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+letter-spacing: 0.03em;
+
+color: var(--secondary-text-color)
+}
+                       /* Footer */
+  .footer {
+    background-color: var(--darkbgr-color);
+  }
+
+  /* Footer logo */
+
+.footer-web{
+font-family: var(--logo-font);
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+
+
+letter-spacing: 0.03em;
+
+color: var(--accent-color);
+
+}
+
+  .footer-logo-studio {
+font-family: var(--logo-font);
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--primary-white-color)
+
+  }
+  
+ .footer-address {
+   font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.72;
+letter-spacing: 0.03em;
+
+color: var(--primary-white-color);
+ } 
+
+ .footer-mail,
+ .footer-tel {
+   font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+ }
+ .footer-mail:hover,
+ .footer-mail:focus,
+ .footer-tel:hover,
+ .footer-tel:focus {
+   color: var(--accent-color)
+ }
+
+.footer-mail,
+.footer-tel {
+  text-decoration: none;
+}
+
+                     /* Портфолио */
+
+.main {
+  background-color: var(--mainbgrtwo-color);
+}
+
+.filters .item {
+  background-color: var(--mainbgrtwo-color);
+  color: var(--title-text-color);
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.64;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.filters .item:hover,
+.filters .item:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+    /* -- h2 список наших проектов--> */
+    .portfolio-link {
+      text-decoration: none;
+    }
+    .project-title {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2x;
+
+
+letter-spacing: 0.06em;
+
+color:var(--title-text-color);
+
+    }
+
+    .project-type {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+
+letter-spacing: 0.03em;
+
+color: var(--secondary-text-color);
+    }
