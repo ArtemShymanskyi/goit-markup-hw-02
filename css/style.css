@@ -64,15 +64,14 @@ ul {
   color: var(--title-text-color);
 }
 
+/*  навигационные кнопки хедера */
 
-  /*  навигационные кнопки хедера */
-}
-.nav-menu .link {
+.nav {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1; 
+  line-height: 16px;
   letter-spacing: 0.02em;
 
   color: #212121;
@@ -80,22 +79,22 @@ ul {
 
 .link:hover,
 .link:focus {
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1 ;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .list .link.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contacts-top .link {
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -106,41 +105,37 @@ ul {
 }
 .contacts-top .link:hover,
 .contacts-top .link:focus {
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Hero */
-.hero-title
-{
+.hero-title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
 
-font-family: var(--main-font);
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
+  /* or 136% */
 
-/* or 136% */
-
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: var(--primary-white-color)
-
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
 }
 
 .hero {
   background-color: var(--darkbgr-color);
 }
 
-.hero-btn
- {
+.hero-btn {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: var(--main-font);
@@ -156,173 +151,156 @@ color: var(--primary-white-color)
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-
 }
 
 .hero-btn:hover,
-.hero-btn:focus
-{
-background-color: var(--accentbgr-color);
+.hero-btn:focus {
+  background-color: var(--accentbgr-color);
 }
 
 .advantages,
-.about
-{
+.about {
   background-color: var(--mainbgr-color);
 }
-.advantages-title
-{
-font-family: var(--main-font);
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+.advantages-title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-color:var(--title-text-color);  
+  color: var(--title-text-color);
 }
-.advantages-item
-{
-  font-family: ;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.15;
-/* or 171% */
+.advantages-item {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.15;
+  /* or 171% */
 
-letter-spacing: 0.03em;
-
-color: var(--secondary-text-color);
-
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
-                     /* -- Чем мы занимаемся --> */
-.about-title
-{
-  font-family: font-family: var(--main-font);
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
+/* -- Чем мы занимаемся --> */
+.about-title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-color: var(--title-text-color)
+  color: var(--title-text-color);
 }
-             /* -- Список команды --> */
+/* -- Список команды --> */
 .team-section {
-  background-color: var(--mainbgrtwo-color) ;
+  background-color: var(--mainbgrtwo-color);
 }
 
 .team-title {
   font-family: var(--main-font);
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-color: var(--title-text-color);
-
+  color: var(--title-text-color);
 }
 
-.name{
-font-family: var(--main-font);
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
+.name {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color:var(--title-text-color);
+  color: var(--title-text-color);
 }
-.team-job{
+.team-job {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
 
+  letter-spacing: 0.03em;
 
-
-font-family: var(--main-font);
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-
-letter-spacing: 0.03em;
-
-color: var(--secondary-text-color)
+  color: var(--secondary-text-color);
 }
-                       /* Footer */
-  .footer {
-    background-color: var(--darkbgr-color);
-  }
-
-  /* Footer logo */
-
-.footer-web{
-font-family: var(--logo-font);
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-
-
-letter-spacing: 0.03em;
-
-color: var(--accent-color);
-
+/* Footer */
+.footer {
+  background-color: var(--darkbgr-color);
 }
 
-  .footer-logo-studio {
-font-family: var(--logo-font);
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+/* Footer logo */
 
-color: var(--primary-white-color)
+.footer-web {
+  font-family: var(--logo-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 
-  }
-  
- .footer-address {
-   font-family: var(--main-font);
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.72;
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: var(--primary-white-color);
- } 
+  color: var(--accent-color);
+}
 
- .footer-mail,
- .footer-tel {
-   font-family: var(--main-font);
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
+.footer-logo-studio {
+  font-family: var(--logo-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 
+  color: var(--primary-white-color);
+}
 
-letter-spacing: 0.03em;
+.footer-address {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
+  color: var(--primary-white-color);
+}
 
- }
- .footer-mail:hover,
- .footer-mail:focus,
- .footer-tel:hover,
- .footer-tel:focus {
-   color: var(--accent-color)
- }
+.footer-mail,
+.footer-tel {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
 
 .footer-mail,
 .footer-tel {
   text-decoration: none;
 }
 
-                     /* Портфолио */
+/* Портфолио */
 
 .main {
   background-color: var(--mainbgrtwo-color);
@@ -350,33 +328,31 @@ color: rgba(255, 255, 255, 0.6);
   color: var(--primary-white-color);
 }
 
-    /* -- h2 список наших проектов--> */
-    .portfolio-link {
-      text-decoration: none;
-    }
-    .project-title {
-font-family: var(--main-font);
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2x;
+/* -- h2 список наших проектов--> */
+.portfolio-link {
+  text-decoration: none;
+}
+.project-title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2x;
 
+  letter-spacing: 0.06em;
 
-letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
 
-color:var(--title-text-color);
+.project-type {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
 
-    }
+  letter-spacing: 0.03em;
 
-    .project-type {
-font-family: var(--main-font);
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 187% */
-
-letter-spacing: 0.03em;
-
-color: var(--secondary-text-color);
-    }
+  color: var(--secondary-text-color);
+}
